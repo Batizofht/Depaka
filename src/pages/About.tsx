@@ -18,7 +18,7 @@ export default function About() {
 
       {/* Our Heritage Section - Text Left, Image Right */}
       <section className="bg-[#FAF8F4] w-full">
-        <div className="w-full max-w-[1272px] mx-auto px-6 md:px-0 flex flex-col lg:flex-row pt-20 sm:pt-24 lg:pt-28 pb-20 sm:pb-24 lg:pb-28 justify-center items-stretch gap-10 lg:gap-16">
+        <div className="w-full max-w-[1272px] mx-auto px-4 sm:px-6 lg:px-[84px] flex flex-col lg:flex-row pt-20 sm:pt-24 lg:pt-28 pb-20 sm:pb-24 lg:pb-28 justify-center items-stretch gap-10 lg:gap-16">
         {/* Left - Content */}
         <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 sm:gap-5 order-2 lg:order-1 justify-center">
           <p className="text-[#D19C2A] font-manrope text-[11px] font-bold tracking-[0.4em] uppercase">
@@ -57,7 +57,7 @@ export default function About() {
 
       {/* Stats Section - 35+, 10K+, 50+, 25K+ */}
       <section className="bg-[#F3EDE4] w-full">
-        <div className="w-full max-w-[1272px] mx-auto px-6 md:px-0 flex flex-wrap sm:flex-nowrap py-16 sm:py-20 justify-between items-center gap-4 sm:gap-12 lg:gap-12">
+        <div className="w-full max-w-[1272px] mx-auto px-4 sm:px-6 lg:px-[84px] flex flex-wrap sm:flex-nowrap py-16 sm:py-20 justify-between items-center gap-4 sm:gap-12 lg:gap-12">
         <div className="flex flex-col items-center gap-2 w-[45%] sm:w-auto">
           <p className="text-[#8B0304] font-playfairDisplay text-[36px] sm:text-[44px] lg:text-5xl font-medium leading-[48px] sm:leading-[56px] lg:leading-[72px] text-center">
             35+
@@ -95,7 +95,7 @@ export default function About() {
 
       {/* Gold That Tells a Story - Image Left, Text Right */}
       <section className="bg-[#FFF] w-full">
-        <div className="w-full max-w-[1272px] mx-auto px-6 md:px-0 flex flex-col lg:flex-row pt-20 sm:pt-24 lg:pt-28 pb-20 sm:pb-24 lg:pb-28 justify-center items-stretch gap-10 lg:gap-16">
+        <div className="w-full max-w-[1272px] mx-auto px-4 sm:px-6 lg:px-[84px] flex flex-col lg:flex-row pt-20 sm:pt-24 lg:pt-28 pb-20 sm:pb-24 lg:pb-28 justify-center items-stretch gap-10 lg:gap-16">
         {/* Left - Image */}
         <div className="w-full lg:w-1/2">
           <div className="rounded-[14px] overflow-hidden">

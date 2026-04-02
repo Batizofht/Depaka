@@ -31,7 +31,7 @@ export default function Home() {
 
 
 
-      <div className="w-full max-w-[1272px] mt-[-60px]  md:mt-[-100px] mx-auto py-12 px-6 md:px-0 sm:py-16 lg:py-20">
+      <div className="px-4 sm:px-6 lg:px-[84px] w-full max-w-[1272px] mt-[-60px]  md:mt-[-100px] mx-auto py-12  sm:py-16 lg:py-20">
         <div className="flex flex-col items-center gap-3 mb-8 sm:mb-12">
           <p className="text-[rgba(45,45,66,0.60)] font-manrope text-xs font-bold tracking-[0.2em] uppercase text-center">
             Shop by Categories
@@ -248,7 +248,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative w-full min-h-[400px] sm:min-h-[450px] lg:h-[468px] overflow-hidden">
+      <div className="relative px-4 sm:px-6 lg:px-[84px] w-full max-w-[1272px] min-h-[400px] sm:min-h-[450px] lg:h-[468px] overflow-hidden mx-auto">
         <img
           src="/cta.svg"
           className="absolute inset-0 w-full h-full object-cover"
@@ -256,7 +256,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-[rgba(28,28,28,0.55)]"></div>
         <div className="relative z-10 w-full h-full">
-          <div className="w-full max-w-[1272px] mx-auto h-full flex items-center py-12 sm:py-16 px-6 md:px-0">
+          <div className="w-full  md:w-[1152px] xl:max-w-[1272px] mx-auto h-full flex items-center py-12 sm:py-16 px-6 md:px-0">
             <div className="flex flex-col items-start gap-4 sm:gap-6 max-w-full sm:max-w-[576px]">
               <p className="text-[#D19C2A] font-manrope text-xs font-bold tracking-[0.15em] sm:tracking-[0.2em] uppercase">
                 Bridal Collection 2026

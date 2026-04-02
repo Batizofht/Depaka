@@ -41,7 +41,7 @@ export default function Testimonials() {
   const current = testimonials[currentIndex];
 
   return (
-    <div className="flex flex-col items-center gap-8 sm:gap-12 lg:gap-14 w-full max-w-[1272px] px-4 sm:px-6 lg:px-0">
+    <div className="flex flex-col items-center gap-8 sm:gap-12 lg:gap-14 px-4 sm:px-6 lg:px-[84px] w-full">
       {/* Main Content - Image Left, Content Right */}
       <div className="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12 xl:gap-20 w-full">
         {/* Left Side - Image */}

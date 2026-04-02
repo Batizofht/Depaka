@@ -100,13 +100,13 @@ export function Hero({ slides }: HeroProps) {
         {/* Model Image - Hidden on mobile, shown on larger screens */}
         <img
           src="/Pics/Hero girl.svg"
-          className="hidden lg:block absolute right-[5%] xl:right-[10%] top-14 w-[350px] xl:w-[500px] h-auto max-h-[600px] object-contain pointer-events-none"
+          className="hidden lg:block absolute right-[5%] xl:right-[10%] bottom-0 w-[350px] xl:w-[500px] h-auto max-h-[600px] object-contain pointer-events-none"
           alt="Hero Girl"
         />
       </div>
 
       {/* Stats Card - Overlaps hero using negative margin */}
-      <div className="relative z-20 -mt-6 sm:-mt-8 lg:-mt-10 mx-auto flex flex-wrap sm:flex-nowrap justify-center items-start rounded-[14px] border border-[rgba(243,244,246,0.80)] bg-[#FFF] shadow-[0_20px_25px_-5px_rgba(0,0,0,0.04),0_8px_10px_-6px_rgba(0,0,0,0.04)] max-w-[1340px] mx-4 sm:mx-6 lg:mx-auto">
+      <div className="relative  z-20 -mt-6 sm:-mt-8 lg:-mt-10 flex flex-wrap sm:flex-nowrap justify-center items-start rounded-[14px] border border-[rgba(243,244,246,0.80)] bg-[#FFF] shadow-[0_20px_25px_-5px_rgba(0,0,0,0.04),0_8px_10px_-6px_rgba(0,0,0,0.04)] max-w-[1272px] mx-5 lg:mx-5 2xl:mx-auto">
         <div className="flex flex-col items-center gap-1 py-5 sm:py-7 px-2 sm:px-4 border-r border-[#F3F4F6] w-1/2 sm:w-1/4">
           <p className="text-[#8B0304] font-playfairDisplay text-[24px] sm:text-[32px] font-medium">15+</p>
           <p className="text-[rgba(45,45,66,0.40)] font-manrope text-[10px] sm:text-[11px] font-semibold tracking-[0.12em] text-center">YEARS OF HERITAGE</p>
